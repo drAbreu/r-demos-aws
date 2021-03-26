@@ -37,3 +37,8 @@ sudo yum install -y libjpeg-turbo-devel
 # ATHENA_PASSWORD=< AWS_SECRET_ACCESS_KEY>
 # The values can be found in the user you created in IAM. See previous steps of the tutorial for that
 sudo vim /home/rstudio/.Renviron
+
+
+# Add libraries that will be necessary to install h2o for the part 3 of the tutorial
+sudo yum install R-devel.x86_64.
+sudo yum install libcurl-devel.x86_64
